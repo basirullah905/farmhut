@@ -1,0 +1,214 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+
+}
+.nav-bar{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+ 
+    
+}
+.logo-nav{
+    width: 13%;
+    height: 40px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: small;
+      
+}
+
+.nav-link:hover{
+    background-color:rgb(235, 235, 231, 0.5);
+    border-radius: 7px;
+    color: rgb(2, 144, 2)
+}
+.text-center{
+    text-align: center;
+    background:linear-gradient(to right, #348100, #ffdb3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+    /* font-size: 80px; */
+    font-size: 4.5rem;
+    font-weight: 700;
+    /* font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+    letter-spacing: -4px;   
+}
+.precid{
+    margin-left: 400px;
+    margin-top: 300px !important;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    letter-spacing: 0px;   
+}
+.text-center-p{
+    text-align: center;
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+    margin-left: 130px;
+}
+/* Bottun */
+    #checkboxInput {
+    display: none; 
+  }
+  
+  .toggleSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .3s;
+    margin-top: 70px;
+    margin-left: 600px;
+    border-radius: 30px;
+  }
+  
+  .toggleSwitch::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    background: conic-gradient(rgb(104, 104, 104),white,rgb(104, 104, 104),white,rgb(104, 104, 104));
+    border-radius: 50%;
+    transition-duration: .3s;
+    box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.308);
+  }
+  
+  #checkboxInput:checked+.toggleSwitch::after {
+    transform: translateX(100%);
+    transition-duration: .3s;
+  }
+  /* Switch background change */
+  #checkboxInput:checked+.toggleSwitch {
+    background-color: rgb(153, 197, 151);
+    transition-duration: .3s;
+}
+
+.btn-left{
+    margin-left: 500px;
+    margin-top: -100px !important;
+}
+.btn-right{
+    margin-left: 680px;
+    padding-top: -100px !important;
+}
+
+/* button close */
+
+
+/* three box */
+.three-box{
+    display: flex;
+    /* width: 100%; */
+    margin: 40px;
+       
+
+}
+.three-box1{
+    width: 100%;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin: 13px;
+    border: 1px solid black;
+    background: linear-gradient(90deg ,rgba(192, 251, 255, 0.2),rgba(188, 255, 106, 0.2) );
+}
+.three-box-p1{
+    font-size: 25px;
+    font-weight: 520;
+    margin-left: 25px;
+    
+
+}
+.three-box-p2{
+    margin-left: 25px;
+    font-size: 13px;
+    color: rgb(65, 64, 64);
+    
+}
+.inner-div{
+    
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: white !important;
+}
+li{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 34px;
+    background: white !important;  
+}
+.last-bulit{
+    padding-bottom: 200px;
+}
+.three-box-purchas{
+    text-align: center;
+    margin: 0px;
+    padding-top: 8px;
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    background: linear-gradient(90deg ,rgba(192, 251, 255, 0.2),rgba(188, 255, 106, 0.2) );
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    
+}
+.purchase{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* footor */
+.footer{
+    padding-left: 25px;
+}
+/* .footer-h5{
+
+}
+.footer-p{
+
+
+} */
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+.image-icon{
+
+}
+.img-icn{
+    float: right;
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+
+}
+.footer-p-last{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
